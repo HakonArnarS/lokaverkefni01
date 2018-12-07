@@ -1,0 +1,103 @@
+body, html {
+    font-size: 16px; 
+}
+header.fp-header h1 {
+    font-family: 'Alegreya', serif;
+    line-height: 5rem;
+    font-size: 5rem;
+    color: #f5f5f5; 
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    display: inline-block
+}
+h1 {
+    display: none; 
+}
+h2 {
+    font-family: 'Alegreya', serif;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    color: #8C288C;
+    margin-bottom: 2rem; 
+}
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal; 
+    line-height: 1.5rem;
+    font-size: 1.25rem;
+    color: #8C288C; 
+    margin-bottom: 1rem; 
+}
+h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal; 
+    line-height: 1.25rem;
+    font-size: 1rem;
+    color: #f5f5f5; 
+}
+p, span {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: #222; 
+}
+a {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    text-decoration-line: none;  
+    color: #8C288C;
+    text-align: center; 
+    cursor: pointer;  
+}
+a:hover {
+    text-decoration-line: underline; 
+}
+.fa, .far, .fas::after {
+    font-family: "Font Awesome 5 Free";
+}
+.dropdown::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f107"; 
+    padding-left: 0.6rem; 
+    font-weight: 600;
+    margin: 0;  
+}
+.mdropdown::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f107"; 
+    padding-left: 0.6rem; 
+    font-weight: 600;
+    margin: 0;  
+}
+i.fas.fa-search {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    text-decoration-line: none;
+    color: #8C288C;
+    text-align: center;
+    cursor: pointer; 
+}
+button.signup {
+    width: 12.5rem;
+    height: 2.5rem;
+    background-color: transparent;
+    border: 2px solid #8C288C;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: #8C288C;
+    margin-top: 1.25rem;
+    display: block; 
+}
+button.signup:hover {
+    background-color: #8C288C; 
+    color: #f5f5f5; 
+}
